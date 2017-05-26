@@ -11,7 +11,8 @@
     "build": "webpack",
     "dev": "webpack-dev-server",
     "lint": "eslint js/**/*.js server.js",
-    "watch": "webpack --watch"
+    "watch": "webpack --watch",
+    "cover": "npm run test -- --coverage"
   },
   "dependencies": {
     "axios": "0.15.2",
@@ -20,7 +21,6 @@
     "lodash": "4.16.2",
     "preact": "^6.4.0",
     "preact-compat": "^3.9.3",
-    "preact-render-to-string": "^3.3.0",
     "react": "15.3.2",
     "react-dom": "15.3.2",
     "react-redux": "4.4.0",
